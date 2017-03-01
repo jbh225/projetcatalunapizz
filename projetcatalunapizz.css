@@ -7,10 +7,11 @@ body {margin:0;}
     text-align: center;
     border:2px solid #000000;
     background-color: #cc0001;
-    margin: 10px;
+    margin: 0px;
     color: #ffff00;
+    width: 100%;
+    padding-top: 40px;
          }
-
 
 
 
@@ -23,12 +24,14 @@ ul {
     background-color: #ffff00;
     position: fixed;
     top: 0;
-    width: 50%;
+    width: 100%;
     position: center
+   
 }
 
 li {
     float: left;
+     width: auto;
 }
 
 li a {
@@ -37,10 +40,12 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+     width: auto;
 }
 
 li a:hover:not(.active) {
     background-color: #555;
+     width: auto;
 }
 
 
@@ -54,6 +59,7 @@ p{
     font-size: 15px;
     padding: 70px;
     border:2px solid #000000;
+    padding-left: 10px;
 }
 
 
@@ -62,10 +68,17 @@ p{
     text-align: center;
     border:2px solid #000000;
     background-color: #ffff00;
-    margin: 20px;
+    margin: 0px;
     color: #cc0001;
+    width: 100%
 
          }
+img {
+
+    margin: 5px;
+    height: 50px;
+}
+
 
     
 
