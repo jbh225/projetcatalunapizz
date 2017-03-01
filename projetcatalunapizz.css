@@ -7,7 +7,12 @@
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 { 
+<<<<<<< HEAD
       background-color: #474E5D; 
+=======
+      background: url("wallpaperpizza3.jpg");
+      background size: cover; /* Green */
+>>>>>>> 70f460b25d32d8ee02aa3e25ce49a344ffd024be
       color: #ffffff;
   }
   .bg-2 { 
@@ -18,10 +23,30 @@
       background-color: #ffffff; /* White */
       color: #555555;
   }
+
+
+  .col-sm-6{ 
+    text-align: center;
+    padding: 40px;
+
+  }
+  
+  .pizc { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+
+  .pizd{ 
+       background-color: #ffffff; /* White */
+      color: #555555;
+
+  }
+
   .bg-4 { 
       background-color: #2f2f2f; /* Black Gray */
       color: #fff;
   }
+
   .container-fluid {
       padding-top: 70px;
       padding-bottom: 70px;
@@ -34,10 +59,13 @@
       margin-bottom: 0;
       font-size: 12px;
       letter-spacing: 5px;
+      
   }
   .navbar-nav  li a:hover {
       color: #DF0000 !important;
   }
+
+
 
 
 
