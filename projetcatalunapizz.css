@@ -4,21 +4,40 @@
       line-height: 1.8;
       color: #f5f6f7;
   }
+
   p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
+  .margin {
+    margin-bottom: 45px;
+}
+
+    h2 {
+    font-size: 80px;
+}
+     li {
+        font-size: 18px;
+     }
   .bg-1 { 
-<<<<<<< HEAD
-      background-color: #474E5D; 
-=======
-      background: url("wallpaperpizza3.jpg");
-      background size: cover; /* Green */
->>>>>>> 70f460b25d32d8ee02aa3e25ce49a344ffd024be
-      color: #ffffff;
+    background-color: #474E5D; 
+    background: url("imghdr.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #D50000;
+    height: 1000px;
+    font-family: 'Ruslan Display', cursive;
+
   }
+
+  .imghdr {
+    padding-top: 150px;
+  }
+
   .bg-2 { 
       background-color: #F5F5F5;
       color: #474E5D;
   }
+
   .bg-3 { 
       background-color: #ffffff; /* White */
       color: #555555;
@@ -51,9 +70,10 @@
       padding-top: 70px;
       padding-bottom: 70px;
   }
+
   .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
       border: 0;
       border-radius: 0;
       margin-bottom: 0;
@@ -61,10 +81,19 @@
       letter-spacing: 5px;
       
   }
+
   .navbar-nav  li a:hover {
       color: #DF0000 !important;
   }
 
+.navbar-default {
+    background-color: #5F5F5F;
+    border: 1px white;
+  }
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
 
 
 
