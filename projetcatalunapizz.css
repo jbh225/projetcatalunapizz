@@ -1,3 +1,137 @@
-body{
-	background-color: blue;
+
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #474E5D; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #E00000; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+//*body {margin:0;}
+
+
+ #header{
+ 
+    text-align: center;
+    border:2px solid #000000;
+    background-color: #cc0001;
+    margin: 0px;
+    color: #ffff00;
+    width: 100%;
+    padding-top: 40px;
+         }
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border:2px solid #000000;
+    background-color: #ffff00;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: center
+   
 }
+
+li {
+    float: left;
+     width: auto;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+     width: auto;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+     width: auto;
+}
+
+
+
+p{
+    padding: 20px;
+}
+
+#container{
+    text-align: center;
+    font-size: 15px;
+    padding: 70px;
+    border:2px solid #000000;
+    padding-left: 10px;
+}
+
+
+ #footer{
+ 
+    text-align: center;
+    border:2px solid #000000;
+    background-color: #ffff00;
+    margin: 0px;
+    color: #cc0001;
+    width: 100%
+
+         }
+img {
+
+    margin: 5px;
+    height: 50px;
+}*//
+
+
+    
+
+
+</style>

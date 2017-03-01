@@ -1,50 +1,335 @@
-<DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=devide-width, initial-scale=1">
-		<title>Cataluna Pizz</title>
-		<link rel="Stylesheet" href="Style.css" type="text/css" />
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="projetcatalunapizz.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
 
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#bg-1">Qui sommes-nous?</a></li>
+        <li><a href="#bg-2">Infos Pratiques</a></li>
+        <li><a href="#bg-3">Menus</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	</head>
-	<body>
-		<header>
-		
-		</header>
-		<nav class="navbar navbar-default" role="navigation">
-  			<div class="container-fluid">
-    			<div class="navbar-header">
-      				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      				<a class="navbar-brand" href="#"></a> 
-      			</div>
-   		 		<div class="collapse navbar-collapse" id="navbar-collapse-main">
-     				 <ul class="nav navbar-nav navbar-right">
-       					<li><a href="javascript:void(0);">Home</a></li>
-       					<li><a href="javascript:void(0);"><a href="http://www.jqueryscript.net/menu/">Menu</a> Item #2</a></li>
-       					<li><a href="javascript:void(0);">Menu Item #3</a></li>
-       		 			<li><a href="javascript:void(0);">Menu Item #4</a></li>
-      		 			<li><a href="javascript:void(0);">Menu Item #5</a></li>
-      				</ul>
-    			</div>
-  			</div>
-		</nav>
-	<footer>
-		
-	</footer>
-	</body>
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="toro.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>I'm an adventurer</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">What Am I?</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Search
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Where To Find Me?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p><a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+</footer>
+
+</body>
 </html>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+​
+
+		      <!-- <h3>La Margherita</h3>
+		      <p>Sauce tomate, Fromage, </br> Olives</br> S 5,2€	L 7€</p>
+		 
+		    
+		    </div>
+		    <div class="col-sm-6">
+		      <h3>La Jamon</h3>
+		      <p>Sauce tomate, Jambon blanc</br>
+		      Champignons, Fromage</br>
+		      S 6,5€  L 8.2€</p>
+		    </div> 
+		  </div>
+
+		  <div class="row">
+		    <div class="col-sm-6">
+		      <h3>La Regina</h3>
+		      <p>Sauce tomate, Jambon blanc</br>
+		      Champignons, Fromage</p>
+		    </div>
+		    <div class="col-sm-6">
+		      <h3>La Catanlane</h3>
+		      <p>Sauce tomate, Chorizo, oignons rouges</br>
+		      Poivrons, Fromage</p>
+		    </div> 
+		  </div>
+
+		  <div class="row">
+		    <div class="col-sm-6">
+		      <h3>L'orientale</h3>
+		      <p>Sauce tomate, merguez, oignon rouges</br>
+		      Poivrons, Fromage</p>
+		    </div>
+		    <div class="col-sm-6">
+		      <h3>La Cabra</h3>
+		      <p>Sauce tomate, Chèvre, Fromage</br>
+		      (Accompagnement au choix: miel, persillade, ciboulette)</p>
+		    </div> 
+		  </div>
+
+		  <div class="row">
+		    <div class="col-sm-6">
+		      <h3>La Calzone</h3>
+		      <p>Sauce tomate, Jambon blanc</br>
+		      Oeuf, Fromage</p>
+		    </div>
+		    <div class="col-sm-6">
+		      <h3>La 4 Fromages</h3>
+		      <p>Sauce tomate, Bleu, Parmesan</br>
+		      Emmental, Mozzarella</p>
+		    </div> 
+		  </div>
+
+		  <div class="row">
+		    <div class="col-sm-6">
+		      <h3>L'Hawaienne</h3>
+		      <p>Sauce tomate, Jambon blanc</br>
+		      Ananas, Crème fraîche</p>
+		    </div>
+		    <div class="col-sm-6">
+		      <h3>La Temporadas</h3>
+		      <p>Sauce tomate, Jambon blanc, Champignons, Artichauts</br>
+		      Poivrons, Oeuf, Fromage</p>
+		    </div> 
+		  </div>
+
+		  <div class="row">
+		    <div class="col-sm-6">
+		      <h3>La Vegetariana</h3>
+		      <p>Sauce tomate, tomate fraîche, champignons, Poivrons, Olives</br>
+		      Oignons rouges, artichauts, Fromages</p>
+		    </div>
+		    <div class="col-sm-6">
+		      <h3>La Barcelona</h3>
+		      <p>Sauce tomate, Boeuf haché, Champignon, Oeuf</br>
+		      Oignons rouges, Fromage</p>
+		    </div> 
+		  </div>
+
+		  <div class="row">
+		    <div class="col-sm-6">
+		      <h3>La malaga</h3>
+		      <p>Sauce tomate, Boeuf haché, Chorizo, Oignons rouges</br>
+		      Persillade, Fromage</p>
+		    </div>
+		    <div class="col-sm-6">
+		      <h3>La Mexicaine</h3>
+		      <p>Sauce tomate, Boeuf haché, Oignons rouges</br>
+		      Persillade, Oeuf, Fromage</p>
+		    </div> 
+		  </div>
+
+		  <div class="row">
+		    <div class="col-sm-6">
+		      <h3>La Burger</h3>
+		      <p>Sauce tomate, Boeuf haché, Oignons rouges, Cheddar</br>
+		      Tomate fraîche, Sauce burger, Fromafe</p>
+		    </div>
+		    <div class="col-sm-6">
+		      <h3>L'Andalouse</h3>
+		      <p>Sauce tomate, Chorizo, Merguez, Lardons, Boeuf haché, Jambon blanc</br>
+		      Oeuf, Piment d'espelette, Fromage</p>
+		    </div> 
+		  </div>
+
+		  <div class="row">
+		    <div class="col-sm-6">
+		      <h3>La Flamenco</h3>
+		      <p>Sauce tomate, pommes de terre, Jambon serrano</br>
+		      Oeuf, Piment d'espelette, Fromage</p>
+		    </div>
+		    <div class="col-sm-6">
+		      <h3>La Caliente</h3>
+		      <p>Sauce tomate, Jambon serano, Chorizo, Oeuf</br>
+		      Piment d'espelette, Fromage</p>
+		    </div> 
+		  </div>
+
+		</div>
+
+
+
+
+		
+  
+		<div id ="container">
+		<div class="row">
+		 <div class="col-sm-6 col-sm-offset-3">
+
+		<h3>Pizzas à base crème</h3> </br>
+		</div>
+		 </div>
+
+
+
+		  <div class="row">
+		    <div class="col-sm-6">
+		      <h3>La Campesina</h3>
+		      <p>Crème, Lardons, Oignons rouges</br>
+		      Persillade, Fromage</br>
+		      S 5,2€	L 7€</p>
+		    </div>
+		    <div class="col-sm-6">
+		      <h3>La Coklina</h3>
+		      <p>Crèmes, Poulet, Chèvre</br>
+		      Miel, Fromage</br>
+		      S 6,5€  L 8.2€</p>
+		    </div> 
+		  </div>
+
+		   <div class="row">
+		    <div class="col-sm-6">
+		      <h3>La Rambla</h3>
+		      <p>Crème, Poulet, Champignons, Ciboulette</br>
+		      Oeuf, Oignons rouges, Fromage</br>
+		      S 5,2€	L 7€</p>
+		    </div>
+		    <div class="col-sm-6">
+		      <h3>La Madrilène</h3>
+		      <p>Crème, Jambon blanc, Pommes de terre, Oeuf</br>
+		      Oignons rouges, ciboulette, Fromage</br>
+		      S 6,5€  L 8.2€</p>
+		    </div> 
+		  </div>
+
+
+ <div class="row">
+		    <div class="col-sm-6">
+		      <h3>La Del Mar</h3>
+		      <p>Crème, Saumon fumé</br>
+		      Ciboulette, Fromage</br>
+		      S 5,2€	L 7€</p>
+		    </div>
+		    <div class="col-sm-6">
+		      <h3>La Carbonra</h3>
+		      <p>Crème, Lardons, Parmesan, Oeuf</br>
+		      Ciboulette, Fromage</br>
+		      S 6,5€  L 8.2€</p>
+		    </div> 
+		  </div>
+
+
+ <div class="row">
+		    <div class="col-sm-6">
+		      <h3>La Savoyarde</h3>
+		      <p>Crème, Lardons, Pommes de terres</br>
+		      Reblochon, Fromage</br>
+		      S 5,2€	L 7€</p>
+		    </div>
+		    <div class="col-sm-6">
+		      <h3>La Boursin</h3>
+		      <p>Crème, Boeuf haché, Pommes de terre, Boursin</br>
+		      Persillade, Fromage</br>
+		      S 6,5€  L 8.2€</p>
+		    </div> 
+		  </div>
+
+ 
+		</div>
+  
+		<div id ="container">
+		<div class="row">
+		 <div class="col-sm-6 col-sm-offset-3">
+
+		<h3>Pizzas Desserts</h3></br>
+
+		  <div class="row">
+		    <div class="col-sm-6">
+		      <h3>La Sweety Poire</h3>
+		      Crème, Poire, Amandes</br>
+		      Coulis de chocolat</br>
+		      <p>S 5,2€	L 7€</p>
+		    </div>
+		    <div class="col-sm-6">
+		      <h3>La Sweety Ananas</h3>
+		      <p>Crèmes, Ananas, Amandes</br>
+		      Coulis de chocolat</br>
+		      S 6,5€  L 8.2€</p>
+		    </div> 
+		  </div>
+
+		   <div class="row">
+		    <div class="col-sm-6">
+		      <h3>La Smarties</h3>
+		      <p>Crème, Smarties</br>
+		      Coulis de chocolat</br>
+		      S 5,2€	L 7€</p>
+		    </div>
+		    <div class="col-sm-6">
+		      <h3>La Tagada</h3>
+		      <p>Crème, Bonbon fraises tagada</br>
+		      Coulis de chocolat</br>
+		      S 6,5€  L 8.2€</p>
+		    </div> 
+		   </div>
+
+
+<p>100% Fromage (emmental, mozzarella)</br>
+Toutes nos pizzas peuvent être adaptées en fonctions de vos goûts:</br>
+Base tomate, crèmes fraîche ou aillée</br>
+Supplément viande et fromage : 1,20€</br>
+Autres supplément: 0.5</p>
+
+
+
+
+	<div id="footer">
+		<h2>Des produits de qualité pour des pizzas à tomber</h2>
+		<img src="fb.png" alt="facebook" />
+		<img src="twitter.png" alt="Twuitter" />
+		<h3>06 51 75 79 20</h3>
+	</div> -->
+
