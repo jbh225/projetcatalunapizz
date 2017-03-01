@@ -7,12 +7,12 @@
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 { 
-      background-color: #474E5D; /* Green */
+      background-color: #474E5D; 
       color: #ffffff;
   }
   .bg-2 { 
-      background-color: #E00000; /* Dark Blue */
-      color: #ffffff;
+      background-color: #F5F5F5;
+      color: #474E5D;
   }
   .bg-3 { 
       background-color: #ffffff; /* White */
@@ -36,7 +36,7 @@
       letter-spacing: 5px;
   }
   .navbar-nav  li a:hover {
-      color: #1abc9c !important;
+      color: #DF0000 !important;
   }
 
 
