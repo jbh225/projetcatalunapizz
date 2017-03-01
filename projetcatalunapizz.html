@@ -35,39 +35,39 @@
   </div>
 </nav>
 
-<!-- First Container -->
+<!-- HEADER -->
 <div class="container-fluid bg-1 text-center">
 	<div class="imghdr">
 	  <h3 class="margin"></h3>
 	  <img src="toro.jpg" class="img-responsive img-circle margin" style="display:inline" alt="taureau" width="350" height="350">
-	  <h2>Cataluna Pizz'</h2>
+	  <h2 id="titreheader">Cataluna Pizz'</h2>
 	</div>
 </div>
 
 <!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
+<div id="qsm" class="container-fluid bg-2 text-center">
 
-  <h3 id="qsm" class="margin">Qui sommes-nous ?</h3>
+  <h3 class="margin">Qui sommes-nous ?</h3>
   <p>Cataluña Pizz, c'est avant tout un food truck qui permet d'aller à votre rencontre dans toute l'aglomération orléanaise</br> pour vous fournir une cuisine et des produits frais venus tout droit d’Espagne.</br> Nous y apportons simplement une touche personnelle en réinterprétant les richesses de cette gastronomie. </p>
 </div>
 
 
-<div class="container-fluid bg-4 text-center">
-  <h3 id="ipratiq" class="margin">Infos pratiques</h3>
-  <h4>Mardi, Vendredi et Dimanche</h4>
+<div id="ipratiq" class="container-fluid bg-4 text-center">
+  <h3 class="margin">Infos pratiques</h3>
+  <h4 class="titremvd">Mardi, Vendredi et Dimanche</h4>
   <p>Parking de Carrefour Market Orléans</p>
 
 	<br />
-  <h4>Mercredi (soir)</h4>
+  <h4 class="titrems">Mercredi (soir)</h4>
   <p>Saint-LAurent-Nouan</p>
   	<br />
 
-  <h4>Jeudi (midi et soir)</h4>
+  <h4 class="titrej">Jeudi (midi et soir)</h4>
   <p>Parking de V&B Ingré</p>
 
   <br />
 
-  <h4>Samedi (soir)</h4>
+  <h4 class="titress">Samedi (soir)</h4>
   <p>Garage Orléans Pneumatiques <br />
   Quai St Laurent, Orleans</p>
 
@@ -82,8 +82,8 @@
 </div>
 
 <!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
-  <h2 SSclass="margin">Menus </br></h2>
+<div id="menu" class="container-fluid bg-3 text-center">    
+  <h2 class="margin menu">Menus </br></h2>
    <p>S= 29cm &nbsp;&nbsp;&nbsp; L = 33cm </p> </br>
   	<h3>Pizzas à base de tomate</h3><br>
   <div class="row">
@@ -364,12 +364,48 @@
 		    </div> 
 		   </div>
 
-
-<p>100% Fromage (emmental, mozzarella)</br>
+	<div class="raw bg-12">
+	<p class=p12>100% Fromage (emmental, mozzarella)</br>
 Toutes nos pizzas peuvent être adaptées en fonctions de vos goûts:</br>
 Base tomate, crèmes fraîche ou aillée</br>
 Supplément viande et fromage : 1,20€</br>
 Autres supplément: 0.5</p>
+	</div>
+
+</div>
+
+
+	<div id="myCarousel" class="carousel slide text-center" data-ride="carousel"> 
+<!-- Indicators --> 
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li> 
+			<li data-target="#myCarousel" data-slide-to="1"></li> 
+			<li data-target="#myCarousel" data-slide-to="2"></li> 
+		</ol> 
+<!-- Wrapper for slides --> 
+		<div class="carousel-inner" role="listbox"> 
+			<div class="item active"> 
+				<h4>"Ce sont les meilleurs pizzas espagnols que j'ai mangé!"<br><span style="font-style:normal;">David <br>Wild code school</span></h4> 
+			</div> 
+			<div class="item"> <h4>"Muy bueno ces pizzas "<br><span style="font-style:normal;">Jean-Bastiste<br>Wild code school</span></h4> 
+			</div> 
+			<div class="item"> <h4>"Hola! Hola! muy calor c'est pizzas"<br><span style="font-style:normal;">Jason <br> Wild code school,</span></h4> 
+			</div> 
+		</div>
+
+
+
+<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+  		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  		<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+  		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  		<span class="sr-only">Next</span>
+		</a>
+
+	</div>
 </div>
 
 <!-- Footer -->
