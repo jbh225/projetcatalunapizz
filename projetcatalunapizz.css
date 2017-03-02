@@ -25,6 +25,10 @@
       font-weight: 600;
       margin-bottom: 30px;
   }
+    h3{
+     font-family: 'Pacifico', cursive; 
+     font-size: 40px;
+    }
   h4 {
       font-size: 19px;
       line-height: 1.375em;
@@ -177,7 +181,7 @@
     background-size: cover;
     color: #D50000;
     height: 400px;
-    font-family: 'Ruslan Display', cursive;
+    font-family: 'Pacifico', cursive; 
         
          
     }
@@ -185,7 +189,8 @@
     .picp{
       font-family: normal ;
       font-weight: normal;
-      color: yellow;
+      color: #FAC830;
+      font-family: 'Pacifico', cursive; 
     }
 
 
@@ -203,7 +208,8 @@
 
 
 .avis{
-  color:red;
+  color:#FAC830;
+  font-family: 'Pacifico', cursive; 
 
 }
 
@@ -216,6 +222,8 @@
 
 .slogan{
   color:white;
+  font-family: 'Pacifico', cursive; 
+
 }
 
 .imgcrm img {
