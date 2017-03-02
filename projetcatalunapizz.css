@@ -127,7 +127,7 @@
   .item h4 {
       font-size: 19px;
       line-height: 1.375em;
-      font-weight: 400;
+      font-weight: 400px;
       font-style: italic;
       margin: 70px 0;
   }
@@ -146,108 +146,71 @@
   }
 
     .titremvd {
-        color: purple;
+        color: yellow;
     }
 
     .titrems {
-        color: grey;
+        color: yellow;
     }
 
     .titrej {
         color: yellow;
     }
     .titress {
-        color: blue;
+        color: yellow;
+    }
+
+    .jumbotron{
+        padding-top: 10px;
+    background-color: #474E5D; 
+    background: url("pjum.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #D50000;
+    height: 400px;
+    font-family: 'Ruslan Display', cursive;
+        
+         
+    }
+
+    .picp{
+      font-family: normal ;
+      font-weight: normal;
+      color: yellow;
     }
 
 
 
-
-
-
-
-//*body {margin:0;}
-
-
- #header{
- 
-    text-align: center;
-    border:2px solid #000000;
-    background-color: #cc0001;
-    margin: 0px;
-    color: #ffff00;
-    width: 100%;
-    padding-top: 40px;
-         }
-
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border:2px solid #000000;
-    background-color: #ffff00;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    position: center
-   
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 150%;
+  padding: 30px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  width: ;
 }
 
-li {
-    float: left;
-     width: auto;
-}
 
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-     width: auto;
-}
+.avis{
+  color:red;
 
-li a:hover:not(.active) {
-    background-color: #555;
-     width: auto;
 }
 
 
 
-p{
-    padding: 20px;
+
+.droits{
+  color: yellow;
 }
 
-#container{
-    text-align: center;
-    font-size: 15px;
-    padding: 70px;
-    border:2px solid #000000;
-    padding-left: 10px;
+.slogan{
+  color:white;
 }
 
-
- #footer{
- 
-    text-align: center;
-    border:2px solid #000000;
-    background-color: #ffff00;
-    margin: 0px;
-    color: #cc0001;
-    width: 100%
-
-         }
-img {
-
-    margin: 5px;
-    height: 50px;
-}*//
-
-
-    
-
-
-</style>
+.imgcrm img {
+  position: cover;
+}

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
  
-  <title>Bootstrap Theme Simply Me</title>
+  <title>Cataluna Pizz</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -24,6 +24,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
+      <!--------- icone---->
+      <a class="navbar-brand" href="#headeri"><img src="toro.jpg	" alt="Dispute Bills">
+        </a>
+        <!---->
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-center">
@@ -36,11 +40,11 @@
 </nav>
 
 <!-- HEADER -->
-<div class="container-fluid bg-1 text-center">
+<div id=headeri class="container-fluid bg-1 text-center">
 	<div class="imghdr">
 	  <h3 class="margin"></h3>
-	  <img src="toro.jpg" class="img-responsive img-circle margin" style="display:inline" alt="taureau" width="350" height="350">
 	  <h2 id="titreheader">Cataluna Pizz'</h2>
+	  <img src="toro.jpg" class="img-responsive img-circle margin" style="display:inline" alt="taureau" width="350" height="350">
 	</div>
 </div>
 
@@ -48,12 +52,16 @@
 <div id="qsm" class="container-fluid bg-2 text-center">
 
   <h3 class="margin">Qui sommes-nous ?</h3>
-  <p>Cataluña Pizz, c'est avant tout un food truck qui permet d'aller à votre rencontre dans toute l'aglomération orléanaise</br> pour vous fournir une cuisine et des produits frais venus tout droit d’Espagne.</br> Nous y apportons simplement une touche personnelle en réinterprétant les richesses de cette gastronomie. </p>
+  <p>Cataluña Pizz, c'est avant tout un food truck qui permet d'aller à votre rencontre dans toute l'aglomération orléanaise</br> pour vous fournir une cuisine et des produits frais venus tout droit d’Espagne.</br> Nous y apportons simplement une touche personnelle en réinterprétant les richesses de cette gastronomie. </p> 
+  <img src="photofoodtruck.jpg" alt="photofoodtruck">
 </div>
 
 
 <div id="ipratiq" class="container-fluid bg-4 text-center">
   <h3 class="margin">Infos pratiques</h3>
+  		<div class= "row">
+
+		<div class= "col-md-6">
   <h4 class="titremvd">Mardi, Vendredi et Dimanche</h4>
   <p>Parking de Carrefour Market Orléans</p>
 
@@ -70,10 +78,14 @@
   <h4 class="titress">Samedi (soir)</h4>
   <p>Garage Orléans Pneumatiques <br />
   Quai St Laurent, Orleans</p>
+  </div>
 
   <div class="map">
-  <p>Vous pouez nous trouver ici</p>
+  <div class= "col-md-6">
+  <p>Vous pouvez nous trouver ici</p> <br>
 	<iframe src="https://www.google.com/maps/d/embed?mid=1Oif-2Qx2QIQD7sU3SocSYlXp_Ys" width="640" height="480"></iframe>
+	</div>
+	</div>
 
   </div>
 
@@ -82,10 +94,28 @@
 </div>
 
 <!-- Third Container (Grid) -->
-<div id="menu" class="container-fluid bg-3 text-center">    
-  <h2 class="margin menu">Menus </br></h2>
+<div id="menu" class="container-fluid bg-3 text-center">   
+ <h2 class="margin menu">Menus </br></h2>
    <p>S= 29cm &nbsp;&nbsp;&nbsp; L = 33cm </p> </br>
+<div class="container">
+ 
+ 
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Pizzas à base de tomate </a>
+        </h4>
+
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">
+        <div id="menu" class="container-fluid bg-3 text-center"> 
+
+
+ 
   	<h3>Pizzas à base de tomate</h3><br>
+  	 <img src="pizzto.jpg" atl="pizzatomate">  
   <div class="row">
     <div class="col-sm-6">
 
@@ -260,8 +290,18 @@
   </div>
 
 </div>
-<div class="container-fluid pizc text-center">    
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Pizzas à base de crème fraîche</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body"><div class="container-fluid pizc text-center">    
   <h2 SSclass="margin">Pizza à base de crème </h2> </br>
+  <img id="imgcrm" src="pizzcre.jpg" atl="pizzacreme">
   	
   <div class="row">
 		    <div class="col-sm-6">
@@ -326,13 +366,26 @@
 		  </div>
 
       
-    </div>
+    </div><
     
   </div>
 
+</div>
 
-<div class="container-fluid pizd text-center">    
+      </div>
+
+    </div>
+    </div>	
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Pizzas desserts</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body"><div class="container-fluid pizd text-center">    
   <h2 SSclass="margin">Pizzas desserts </h2> </br>
+  <img src="pizzdes.jpg" atl="pizzadessert">
 
    <div class="row">
 		    <div class="col-sm-6">
@@ -363,16 +416,39 @@
 		      S 7,5€ &nbsp;&nbsp;&nbsp; L 10€</p></br>
 		    </div> 
 		   </div>
-
-	<div class="raw bg-12">
+		   <div class="raw bg-12">
 	<p class=p12>100% Fromage (emmental, mozzarella)</br>
 Toutes nos pizzas peuvent être adaptées en fonctions de vos goûts:</br>
 Base tomate, crèmes fraîche ou aillée</br>
 Supplément viande et fromage : 1,20€</br>
 Autres supplément: 0.5</p>
 	</div>
+		   </div>
+      </div>
+    </div>
+  </div> 
+</div>
+    
+
+		
 
 </div>
+
+
+
+	<div class="container-5">
+		<div class="row">
+			<div class="col-md-12 jumbotron">
+				<div class="text-center">
+					<h2 class="picp"><strong>Cuisine 100% faite maison et 100% bueno</strong> </br></h2>					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+
 
 
 	<div id="myCarousel" class="carousel slide text-center" data-ride="carousel"> 
@@ -383,11 +459,12 @@ Autres supplément: 0.5</p>
 			<li data-target="#myCarousel" data-slide-to="2"></li> 
 		</ol> 
 <!-- Wrapper for slides --> 
+				<h1 class="avis">Nos clients disent: </h1>
 		<div class="carousel-inner" role="listbox"> 
 			<div class="item active"> 
 				<h4>"Ce sont les meilleurs pizzas espagnols que j'ai mangé!"<br><span style="font-style:normal;">David <br>Wild code school</span></h4> 
 			</div> 
-			<div class="item"> <h4>"Muy bueno ces pizzas "<br><span style="font-style:normal;">Jean-Bastiste<br>Wild code school</span></h4> 
+			<div class="item"> <h4>"Muy bueno ces pizzas "<br><span style="font-style:normal;">Jean-Baptiste<br>Wild code school</span></h4> 
 			</div> 
 			<div class="item"> <h4>"Hola! Hola! muy calor c'est pizzas"<br><span style="font-style:normal;">Jason <br> Wild code school,</span></h4> 
 			</div> 
@@ -409,12 +486,15 @@ Autres supplément: 0.5</p>
 </div>
 
 <!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
-  <h2>Des produits de qualité pour des pizzas à tomber</h2>
-		<img src="fb.png" alt="facebook" />
-		<img src="twitter.png" alt="Twuitter" />
-		<h3>06 51 75 79 20</h3>
-</footer>
+<footer class="container-fluid bg-4 text-center"> 
+	<h2 class ="slogan">Des produits de qualité pour des pizzas à tomber</h2>
+	 <a href="https://www.facebook.com/catalunapizz/" = target="_blank"><img src="fb.png" alt="facebook"></a> 
+	 <a href="https://twitter.com/CatalunaPizz" = target="_blank"><img src="twitter.png" alt="Twuitter" />
+	 </a>
+	  <h3>06 51 75 79 20</h3> <br /> 
+	  <h3 class="droits">Cataluna Pizz - Tous droits réservés - 2017</h3>
+
+ </footer>
 
   </div>
 
