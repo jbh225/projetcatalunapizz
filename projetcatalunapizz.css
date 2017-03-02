@@ -145,8 +145,7 @@
     background-color: white;
     height: 200px;
     color: black;
-    top: 10px;
-    font-size: 50px;
+    font-size: ;
   }
   .p12 {
     padding-top: 30px;
@@ -190,7 +189,6 @@
       font-weight: normal;
       color: yellow;
     }
-
 
 
 .navbar-brand {
