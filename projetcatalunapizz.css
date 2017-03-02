@@ -146,14 +146,16 @@
       font-style: normal;
   }
   .bg-12 {
-    background-color: #F3F3F3;
+    background-color: white;
     height: 200px;
+    color: black;
+    font-size: ;
   }
   .p12 {
     padding-top: 30px;
   }
   .carousel-inner {
-    padding-bottom: 50px;
+    padding-bottom: 100px;
   }
 
     .titremvd {
@@ -180,8 +182,13 @@
     -o-background-size: cover;
     background-size: cover;
     color: #D50000;
+
     height: 400px;
     font-family: 'Pacifico', cursive; 
+
+    height: 500px;
+    
+
         
          
     }
@@ -192,7 +199,6 @@
       color: #FAC830;
       font-family: 'Pacifico', cursive; 
     }
-
 
 
 .navbar-brand {
