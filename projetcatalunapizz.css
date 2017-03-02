@@ -214,3 +214,18 @@
 .imgcrm img {
   position: cover;
 }
+
+ .btn {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+      border-color: white;
+  }
+
+
+  .modal-header, .modal-body {
+      padding: 40px 50px;
+      
+  }
