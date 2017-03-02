@@ -178,7 +178,9 @@
     .picp{
       font-family: normal ;
       font-weight: normal;
-      color: yellow;
+      color: yellow
+      
+
     }
 
 
@@ -227,5 +229,5 @@
 
   .modal-header, .modal-body {
       padding: 40px 50px;
-      
+
   }
