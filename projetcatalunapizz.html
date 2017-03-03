@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
   <link rel="icon" type="image/png" href="toromini.png" />
-  
+  <script src="jsgooglemap.js" type="text/javascript"></script>
 </head>
 <body>
 
@@ -74,7 +74,11 @@
 
 		<div class= "col-md-6">
 			<p>Vous pouvez nous trouver ici</p> <br>
-			<iframe class="google-maps" src="https://www.google.com/maps/d/embed?mid=1Oif-2Qx2QIQD7sU3SocSYlXp_Ys" width="640" height="480"></iframe>
+			<div id="map_container">
+				<div id="map">
+					<iframe class="google-maps" src="https://www.google.com/maps/d/embed?mid=1Oif-2Qx2QIQD7sU3SocSYlXp_Ys" width="640" height="480"></iframe>
+				</div>
+			</div>
 		</div>
 
 	</div>
@@ -348,7 +352,7 @@
 
 	<div class="jumbotron">
 		<div class="text-center">
-			<span class="picp"><strong>Cuisine 100% faite maison et 100% bueno</strong></span>					
+			<span class="picp"><center><strong>Cuisine 100% faite maison et 100% bueno</strong></center></span>					
 		</div>
 	</div>
 		

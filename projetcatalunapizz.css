@@ -266,3 +266,14 @@
       box-shadow: 1px 1px 12px grey;
 
 }
+
+#map_container{
+  position: relative;
+}
+#map{
+    height: 700px;
+    overflow: hidden;
+    padding-bottom: 22.25%;
+    padding-top: 30px;
+    position: relative;
+}
