@@ -94,11 +94,13 @@ h3 {
 .bg-4 { 
     background-color: #2f2f2f; /* Black Gray */
     color: #fff;
+    height : 10%;
 }
 
 .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 0px;  
+    padding-bottom: 50px;
+    
 }
 
 .navbar {
@@ -131,7 +133,7 @@ h3 {
 }
 
 .navbar-brand {
-    padding-bottom: 5px !important;
+    padding-bottom: 2px !important;
 }
 
 .carousel-control.right, .carousel-control.left {
@@ -284,3 +286,5 @@ h3 {
                     display:none !important;
                 }
 }
+
+
