@@ -106,6 +106,8 @@ if (!$res) {
 
         <input class="btn btn-default" type="reset" name="btnReset" value="Effacer" />
         <input class="btn btn-success" type="submit" name="btnSubmit" value="Ajouter" />
+        <br/>
+        <a href="modifpizza.php" = target="_blank"> <button type="button" class="btn btn-primary">Modifier les pizzas existantes</button></a>
         
 
     </form>
