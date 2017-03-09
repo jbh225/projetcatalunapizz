@@ -106,7 +106,7 @@ if (!$res) {
 
         <input class="btn btn-default" type="reset" name="btnReset" value="Effacer" />
         <input class="btn btn-success" type="submit" name="btnSubmit" value="Ajouter" />
-        <input class="btn btn-primary" type="reset" name="btnReset" value="Modifier" />
+        
 
     </form>
 
