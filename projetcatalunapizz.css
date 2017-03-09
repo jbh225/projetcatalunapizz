@@ -12,9 +12,7 @@ p {
   .margin {
     margin-bottom: 45px;
 }
-h1 {
-    font-family: 'Indie Flower', cursive;
-}
+
     #titreheader{
     font-size: 80px;
     color: #DC0000;
@@ -26,7 +24,7 @@ li {
 
 h2 {
     font-size: 24px;
-    text-transform: uppercase;
+    
     color: #303030;
     font-weight: 600;
     margin-bottom: 30px;

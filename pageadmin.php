@@ -62,7 +62,7 @@ if (!$res) {
 
 
 <div class="container">
-    <h3>Vous souhaitez ajouter un nouveau produit?</h3>
+    <h3>Souhaitez-vous ajouter un nouveau produit?</h3>
     <form method="post" action="pageadmin.php">
         <div class="form-group">
             <label for="produit">Nom du produit</label>
@@ -113,7 +113,10 @@ if (!$res) {
 </div>
 <br/><br/><br/><br/><br/><br/><br/><br/>
 <footer>
-    <p>notre footer</p>
+    <p class="footer">Cataluna Pizz - 2017</p>
+<br />
+
+<a href="projetcatalunapizz.html" = target="_blank"><h3>Se déconnecter?</h3></a>
 </footer>
 
 

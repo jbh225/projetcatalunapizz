@@ -13,4 +13,16 @@ h2{
 font-family: 'Ruslan Display', cursive;
 
 }
+.footer{
 
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: red;
+}
