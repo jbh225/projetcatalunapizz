@@ -6,12 +6,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="bootstrap.css">
+    <link rel= "stylesheet" href="modifpizza.css" >
     <title>Modif pizza</title>
 </head>
 <body>
 
 <div id=headeri class="container-fluid bg-1 text-center">
-    <h1>Bienvenue sur la page modiff pizza de: </h1>
+    <h1>Modification pizzas </h1>
     <h2 id="titreheader">Cataluña Pizz'</h2>
     <div class="imghdr">
         <h3 class="margin"></h3>
@@ -77,7 +78,7 @@
     <p class="footer">Cataluna Pizz - 2017</p>
     <br />
 
-    <a href="pageadmin.php" = target="_blank"><h3>Retour page admin</h3></a>
+    <a href="pageadmin.php" = target="_blank"><h3>Retour</h3></a>
 </footer>
 
 
