@@ -19,7 +19,7 @@ if( !empty( $adminUser ) && !empty( $adminPassword ) ){
 
         // Si c'est ok, on définit la session ADMIN
         $_SESSION['admin'] = $_SERVER['REMOTE_ADDR'];
-        header('Location: login.php');
+        header('Location: pageadmin.php');
 
     } else {
 
