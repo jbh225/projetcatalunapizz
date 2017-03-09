@@ -24,7 +24,7 @@ if( !empty( $adminUser ) && !empty( $adminPassword ) ){
     } else {
 
         // Autrement => message d'erreur
-        $message = '<div class="error">Nom d\'utilisateur ou mot de pass erroné</div>';
+        $message = '<div class="error">Nom d\'utilisateur ou mot de passe erroné</div>';
 
     }
 
@@ -33,7 +33,7 @@ if( !empty( $adminUser ) && !empty( $adminPassword ) ){
 if(isset($_GET['logout'])){
     echo '1';
     session_destroy();
-    header('Location: login.php');
+    header('Location: projetcatalunapizz.html');
 
 }
 

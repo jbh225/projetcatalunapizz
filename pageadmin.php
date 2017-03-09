@@ -116,7 +116,7 @@ if (!$res) {
     <p class="footer">Cataluna Pizz - 2017</p>
 <br />
 
-<a href="projetcatalunapizz.html" = target="_blank"><h3>Se déconnecter?</h3></a>
+<a href="login.php" = target="_blank"><h3>Se déconnecter?</h3></a>
 </footer>
 
 
