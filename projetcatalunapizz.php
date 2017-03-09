@@ -143,21 +143,27 @@
 
                         mysqli_set_charset($bdd,"utf8");
                     $req = "SELECT nom_du_produit, sur_quelle_base, ingredients, taille, prix
-                            FROM form WHERE sur_quelle_base = 'tomate';
+                            FROM form WHERE sur_quelle_base ='tomate'";
                     $res = mysqli_query($bdd, $req);
 
 
-                    echo '<div class="row">';
+                    echo "<div class=\"row\">";
 
                     while($data = mysqli_fetch_assoc($res))
-                    {
-                    echo '
-                    <div class="col-sm-6">
-                        <h3>'.$data['nom_du_produit']'</h3>
-                        <p>'.$data['ingredients']'</br><strong>'.$data['taille']'</strong></p>
-                    </div>';
+                    {$nom=$data['nom_du_produit'];
+                     $ingredients=$data['ingredients'];
+                     $taille=$data['taille'];
+                     $prix=$data['prix'];
+                    echo "
+                    <div class=\"col-sm-6\">
+                        <h3>$nom</h3>
+                        <h4>$ingredients</h4>
+                        <h4>$taille; $prix</h4>
+                        
+                      
+                    </div>";
                     }
-                    echo '</div>';
+                    echo "</div>";
 
                      ?>
 
