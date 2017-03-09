@@ -123,6 +123,12 @@ h3 {
 .navbar-default .navbar-nav > li > a {
     color: #ffffff;
 }
+.navbar-default .navbar-nav > li > .adminstyl {
+    color: black;
+}
+.adminstyl:hover a {
+    color: #ffffff;
+}
 
 .navbar .navbar-nav {
   display: inline-block;
@@ -133,7 +139,9 @@ h3 {
 .navbar-brand {
     padding-bottom: 2px !important;
 }
-
+.adminstyl {
+    color: black;
+}
 .carousel-control.right, .carousel-control.left {
       background-image: none;
       color: #FAC830;

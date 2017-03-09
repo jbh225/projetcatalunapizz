@@ -95,7 +95,7 @@ $sessionAdmin = isset($_SESSION['admin'])? '<div id="admin">Bienvenue Administra
                 <tr>
                     <td><label> Password:</label></td>
                     <td><input type="password" name="adminpassword" class="right"  /></td>
-                    <td><input type="submit" class="left" /></td>
+                    <td><input type="submit" class="left" value="Valider"/></td>
                 </tr>
             </table>
         <?php } else {
