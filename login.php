@@ -33,7 +33,7 @@ if( !empty( $adminUser ) && !empty( $adminPassword ) ){
 if(isset($_GET['logout'])){
     echo '1';
     session_destroy();
-    header('Location: projetcatalunapizz.html');
+    header('Location: projetcatalunapizz.php');
 
 }
 
@@ -47,12 +47,14 @@ $sessionAdmin = isset($_SESSION['admin'])? '<div id="admin">Bienvenue Administra
     <title>Admin Login page</title>
     <style>
         body {
-            background-color: #333;
+            background: url("imghdr.jpg")no-repeat center center fixed;
+            background-color: black;
             color: #CCC;
         }
         label {
             display: inline-block;
-            width: 100px
+            width: 100px;
+            color: black;
         }
         a {
             color: #FFF;
@@ -77,10 +79,13 @@ $sessionAdmin = isset($_SESSION['admin'])? '<div id="admin">Bienvenue Administra
             padding: 6px;
             margin-bottom: 10px
         }
+
+
     </style>
 </head>
 
 <body>
+
 <?php echo $sessionAdmin; ?>
 <div style="width:434px; margin:auto; margin-top:30px">
     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
