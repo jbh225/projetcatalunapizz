@@ -55,7 +55,8 @@
 	<div class="imghdr">
 		<h3 class="margin"></h3>
             <h2 id="titreheader">Cataluña Pizz'</h2>
-		<img src="toro.jpg" class="img-responsive img-circle margin toroposey" style="display:inline" alt="taureau" >
+		<img src="toro.jpg" class="img-responsive img-circle margin toroposey" style="display:inline" alt="taureau" ><br>
+            <h2 id="numhdr">06 51 75 79 20</h2>
 
 	</div>
 </div>
