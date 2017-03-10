@@ -142,7 +142,7 @@
                      $bdd = mysqli_connect(SERVER, USER, PASS, DB);
 
                         mysqli_set_charset($bdd,"utf8");
-                    $req = "SELECT nom_du_produit, sur_quelle_base, ingredients, taille, prix
+                    $req = "SELECT nom_du_produit, sur_quelle_base, ingredients, taille, prix, taillel, prixl
                             FROM form WHERE sur_quelle_base ='tomate'";
                     $res = mysqli_query($bdd, $req);
 
@@ -154,11 +154,14 @@
                      $ingredients=$data['ingredients'];
                      $taille=$data['taille'];
                      $prix=$data['prix'];
+                     $taillel=$data['taillel'];
+                     $prixl=$data['prixl'];
                     echo "
                     <div class=\"col-sm-6\">
                         <h3>$nom</h3>
                         <h4>$ingredients</h4>
-                        <h4>$taille; $prix</h4>
+                        <h4>$taille: $prix</h4>
+                        <h4>$taillel: $prixl</h4>
                         
                       
                     </div>";
@@ -167,13 +170,13 @@
 
                      ?>
 
-            </div>
+                 </div>
             </div>
         </div>
     </div>
 </div>
 
-    <div class="modal-dialog">
+<div class="modal-dialog">
     <div class="modal fade" id="myModalc" role="dialog">	
 
         <!-- Modal content-->
@@ -186,56 +189,40 @@
                 <div id="menu" class="container-fluid bg-3 text-center">
                     <h3 class="margin">Pizzas à base de crème </h3>
 
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <h3>La Campesina</h3>
-                            <p>Crème, Lardons, Oignons rouges</br>Persillade, Fromage</br><strong>S 7,5€ &nbsp;&nbsp;&nbsp;L 10€</strong></p>
-                        </div>
+                    <?php
+                    include 'connect.php';
 
-                        <div class="col-sm-6">
-                            <h3>La Coklina</h3>
-                            <p>Crèmes, Poulet, Chèvre</br>Miel, Fromage</br><strong>S 9,3€ &nbsp;&nbsp;&nbsp; L 12,5€</strong></p>
-                        </div>
-                    </div>
+                    $bdd = mysqli_connect(SERVER, USER, PASS, DB);
 
-                    <div class="row">
-
-                        <div class="col-sm-6">
-                            <h3>La Rambla</h3>
-                            <p>Crème, Poulet, Champignons, Ciboulette</br>Oeuf, Oignons rouges, Fromage</br><strong>S 9€&nbsp;&nbsp;&nbsp;L 12€</strong></p>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <h3>La Madrilène</h3>
-                            <p>Crème, Jambon blanc, Pommes de terre, Oeuf</br>Oignons rouges, ciboulette, Fromage</br><strong>S 9€ &nbsp;&nbsp;&nbsp; L 12€</strong></p>
-                        </div>
-                    </div>
+                    mysqli_set_charset($bdd,"utf8");
+                    $req = "SELECT nom_du_produit, sur_quelle_base, ingredients, taille, prix, taillel, prixl
+                            FROM form WHERE sur_quelle_base ='creme'";
+                    $res = mysqli_query($bdd, $req);
 
 
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <h3>La Del Mar</h3>
-                            <p>Crème, Saumon fumé</br>Ciboulette, Fromage</br><strong>S 10,1€&nbsp;&nbsp;&nbsp;	L 13,5€</strong></p>
-                        </div>
+                    echo "<div class=\"row\">";
 
-                        <div class="col-sm-6">
-                            <h3>La Carbonra</h3>
-                            <p>Crème, Lardons, Parmesan, Oeuf</br>Ciboulette, Fromage</br><strong>S 8,2€ &nbsp;&nbsp;&nbsp; L 11€</strong></p>
-                        </div>
-                    </div>
+                    while($data = mysqli_fetch_assoc($res))
+                    {$nom=$data['nom_du_produit'];
+                        $ingredients=$data['ingredients'];
+                        $taille=$data['taille'];
+                        $prix=$data['prix'];
+                        $taillel=$data['taillel'];
+                        $prixl=$data['prixl'];
+                        echo "
+                    <div class=\"col-sm-6\">
+                        <h3>$nom</h3>
+                        <h4>$ingredients</h4>
+                        <h4>$taille: $prix</h4>
+                        <h4>$taillel: $prixl</h4>
+                        
+                      
+                    </div>";
+                    }
+                    echo "</div>";
 
+                    ?>
 
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <h3>La Savoyarde</h3>
-                            <p>Crème, Lardons, Pommes de terres</br>Reblochon, Fromage</br><strong>S 9,7€&nbsp;&nbsp;&nbsp;L 13€</strong></p>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <h3>La Boursin</h3>
-                            <p>Crème, Boeuf haché, Pommes de terre, Boursin</br>Persillade, Fromage</br><strong>S 10,1€ &nbsp;&nbsp;&nbsp; L 13,5€</strong></p>
-                        </div>
-                    </div>
 
                 </div>
             </div>
@@ -258,28 +245,43 @@
                 <div id="menu" class="container-fluid bg-3 text-center">
                     <h3 class="margin">Pizzas dessert</h3>
 
-                  	    <div class="row">
-                            <div class="col-sm-6">
-                                <h3>La Sweety Poire</h3>
-                                <p>Crème, Poire, Amandes</br>Coulis de chocolat</br><strong>S 6,7€&nbsp;&nbsp;&nbsp;	L 9€</strong></p>
-                            </div>
 
-                            <div class="col-sm-6">
-                                <h3>La Sweety Ananas</h3>
-                                <p>Crèmes, Ananas, Amandes</br>Coulis de chocolat</br><strong>S 6,7€ &nbsp;&nbsp;&nbsp; L 9€</strong></p>
-                            </div>
-                        </div>
+                    <?php
+                    include 'connect.php';
 
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <h3>La Smarties</h3>
-                                <p>Crème, Smarties</br>Coulis de chocolat</br><strong>S 7,5€&nbsp;&nbsp;&nbsp;	L 10€</strong></p>
-                            </div>
-                            <div class="col-sm-6">
-                                <h3>La Tagada</h3>
-                                <p>Crème, Bonbon fraises tagada</br>Coulis de chocolat</br><strong>S 7,5€ &nbsp;&nbsp;&nbsp; L 10€</strong></p></br>
-                            </div>                  
-                        </div>
+                    $bdd = mysqli_connect(SERVER, USER, PASS, DB);
+
+                    mysqli_set_charset($bdd,"utf8");
+                    $req = "SELECT nom_du_produit, sur_quelle_base, ingredients, taille, prix, taillel, prixl
+                            FROM form WHERE sur_quelle_base ='dessert'";
+                    $res = mysqli_query($bdd, $req);
+
+
+                    echo "<div class=\"row\">";
+
+                    while($data = mysqli_fetch_assoc($res))
+                    {$nom=$data['nom_du_produit'];
+                        $ingredients=$data['ingredients'];
+                        $taille=$data['taille'];
+                        $prix=$data['prix'];
+                        $taillel=$data['taillel'];
+                        $prixl=$data['prixl'];
+                        echo "
+                    <div class=\"col-sm-6\">
+                        <h3>$nom</h3>
+                        <h4>$ingredients</h4>
+                        <h4>$taille: $prix</h4>
+                        <h4>$taillel: $prixl</h4>
+                        
+                      
+                    </div>";
+                    }
+                    echo "</div>";
+
+                    ?>
+
+
+
                 </div>
              
             </div>
