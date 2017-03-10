@@ -49,8 +49,8 @@
 <div id=headeri class="container-fluid bg-1 text-center">
 	<div class="imghdr">
 		<h3 class="margin"></h3>
-		<h2 id="titreheader">Cataluña Pizz'</h2>
-		<img src="toro.jpg" class="img-responsive img-circle margin" style="display:inline" alt="taureau" width="350" height="350">
+            <h2 id="titreheader">Cataluña Pizz'</h2>
+		<img src="toro.jpg" class="img-responsive img-circle margin toroposey" style="display:inline" alt="taureau" >
 
 	</div>
 </div>
@@ -58,7 +58,10 @@
 <!-- Second Container -->
 <div id="qsm" class="container-fluid bg-2 text-center">
 	<h3 class="margin">Qui sommes-nous ?</h3>
-	<p> Nunc turpis magna, volutpat a placerat suscipit, rutrum vel urna. Ut bibendum tortor eu pulvinar vehicula. Duis eleifend a elit a mattis.<br> Proin imperdiet hendrerit tellus, et commodo justo dapibus sit amet. Nunc quis nisi nunc donec mattis.<br>  Massa elit. Aenean lacus sapien.  Fringilla sit amet sem ac, pharetra ultrices magna.<br>  Donec eleifend, nisl vel  consectetur, odio ante auctor.<br>  Id hendrerit augue urna rutrum.</p> <br> 
+	<p> Nunc turpis magna, volutpat a placerat suscipit, rutrum vel urna. Ut bibendum tortor eu pulvinar vehicula. Duis eleifend a elit a mattis.<br>
+        Proin imperdiet hendrerit tellus, et commodo justo dapibus sit amet. Nunc quis nisi nunc donec mattis.<br>
+        Massa elit. Aenean lacus sapien.  Fringilla sit amet sem ac, pharetra ultrices magna.<br>  Donec eleifend, nisl vel  consectetur, odio ante auctor.<br>
+        Id hendrerit augue urna rutrum.</p> <br>
 	<center><img class="ombre img-responsive" src="photofoodtruck.jpg" alt="photofoodtruck" />
 </div></center>
 
@@ -81,7 +84,7 @@
 			<h1>Vous pouvez nous trouver ici</h1>
 			<div id="map_container">
 				<div id="map">
-					<iframe class="google-maps" src="https://www.google.com/maps/d/embed?mid=1Oif-2Qx2QIQD7sU3SocSYlXp_Ys" width="640" height="480"></iframe>
+					<iframe class="google-maps" src="https://www.google.com/maps/d/embed?mid=1Oif-2Qx2QIQD7sU3SocSYlXp_Ys"></iframe>
 				</div>
 			</div>
 		</div>
