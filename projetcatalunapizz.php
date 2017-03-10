@@ -43,8 +43,13 @@
       		</ul>
     	</div>
 	</div>
-</nav>
 
+</nav>
+<div>
+    <ul class="breadcrumb">
+        <li class="active numariane"><strong> 06 51 75 79 20 </strong></li>
+    </ul>
+</div>
 <!-- HEADER -->
 <div id=headeri class="container-fluid bg-1 text-center">
 	<div class="imghdr">
@@ -80,12 +85,12 @@
 			 <p>Garage Orléans Pneumatiques <br />Quai St Laurent, Orleans</p>
 		</div>
 
-		<div class= "col-md-6">
+		<div class= "col-md-6 trouv">
 			<h1>Vous pouvez nous trouver ici</h1>
 			<div id="map_container">
-				<div id="map">
+
 					<iframe class="google-maps" src="https://www.google.com/maps/d/embed?mid=1Oif-2Qx2QIQD7sU3SocSYlXp_Ys"></iframe>
-				</div>
+
 			</div>
 		</div>
 
