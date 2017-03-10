@@ -269,16 +269,27 @@ h3 {
   box-shadow: 1px 1px 12px grey;
 }
 
-#map_container{
-  position: absolute;
+.breadcrumb {
+    padding-top: 70px;
+    height:110px;
+    position: fixed;
+    z-index: 1;
+    color: black;
+    background-color: #e5e5e5;
 }
 
-#map{
-  height: 500px;
-  overflow: hidden;
-  padding-bottom: 22.25%;
-  padding-top: 30px;
-  position: relative;
+.numariane {
+    font-size:25px;
+    padding-bottom: 15px;
+    position: right;
+}
+
+.google-maps {
+    height:500px;
+    width:500px;
+}
+#map_container {
+    padding-top: 10px;
 }
 
 @media screen and (max-width:992px) {/*show mobile menu for mobile devices*/
@@ -301,14 +312,15 @@ h3 {
     .bg-1 {
         height:570px;
     }
+    .trouv {
+        display: none;
+    }
 
 
 
 }
-@media only screen and (max-width: 600px) {
-    #map {
-        height: 300px;
-        width: 300px;
+@media only screen and (max-width: 768px) {
+    .breadcrumb {
+        display: none;
     }
-
 }
