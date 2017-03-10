@@ -117,7 +117,7 @@
         <div class="col-sm-4">
             <div class="thumbnail">
                 <p><strong>Pizzas dessert</strong></p>
-                <img src="pizzdes.jpg" alt="dessert" width="550" height="200">
+                <img src="pizzdes.jpg" alt="dessert" width="550" height="280">
                 <button class="btn" data-toggle="modal" data-target="#myModald">Voir pizzas</button>
             </div>
         </div>
@@ -163,9 +163,7 @@
                     <div class=\"col-sm-6\">
                         <h3>$nom</h3>
                         <h4>$ingredients</h4>
-                        <h4>$taille: $prix</h4>
-                        <h4>$taillel: $prixl</h4>
-                        
+                        <h4>$taille: $prix &nbsp&nbsp&nbsp$taillel: $prixl</h4>
                       
                     </div>";
                     }
@@ -216,8 +214,7 @@
                     <div class=\"col-sm-6\">
                         <h3>$nom</h3>
                         <h4>$ingredients</h4>
-                        <h4>$taille: $prix</h4>
-                        <h4>$taillel: $prixl</h4>
+                        <h4>$taille: $prix &nbsp&nbsp&nbsp$taillel: $prixl</h4>
                         
                       
                     </div>";
@@ -273,8 +270,7 @@
                     <div class=\"col-sm-6\">
                         <h3>$nom</h3>
                         <h4>$ingredients</h4>
-                        <h4>$taille: $prix</h4>
-                        <h4>$taillel: $prixl</h4>
+                        <h4>$taille: $prix &nbsp&nbsp&nbsp$taillel: $prixl</h4>
                         
                       
                     </div>";
@@ -343,7 +339,7 @@
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center"> 
-	<h2 class ="slogan">Des produits de qualité pour des pizzas à tomber</h2>
+	<h3 class ="slogan">Des produits de qualité pour des pizzas à tomber</h3>
 	<a href="https://www.facebook.com/catalunapizz/" = target="_blank"><img src="fb.png" alt="facebook"></a> 
 	<a href="https://twitter.com/CatalunaPizz" = target="_blank"><img src="twitter.png" alt="Twitter" />
 	</a>
@@ -358,7 +354,7 @@
 				<!-- Modal content-->
 				<div class="modal-content">
 						<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"></button>
+						<button type="button" class="close" data-dismiss="modal">Fermer</button>
 						<h4> Mentions légales</h4>
 						</div>
 						<div class="modal-body">

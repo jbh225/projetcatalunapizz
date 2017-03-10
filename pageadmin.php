@@ -27,10 +27,12 @@ if (isset($_POST['btnSubmit'])) {
     $ingredients =$postClean['ingredients'];
     $taille =$postClean['taille'];
     $prix =$postClean['prix'];
+    $taillel =$postClean['taillel'];
+    $prixl =$postClean['prixl'];
 
 
- $res = mysqli_query($bdd, "INSERT INTO form (nom_du_produit,sur_quelle_base, ingredients, taille, prix) 
-                    VALUES ('$nom_du_produit', '$sur_quelle_base', '$ingredients', '$taille', '$prix')");
+ $res = mysqli_query($bdd, "INSERT INTO form (nom_du_produit,sur_quelle_base, ingredients, taille, prix, taillel, prixl) 
+                    VALUES ('$nom_du_produit', '$sur_quelle_base', '$ingredients', '$taille', '$prix', '$taillel', '$prixl')");
 
 if (!$res) {
     echo mysqli_error($bdd);
@@ -93,13 +95,26 @@ if (!$res) {
             <label><input type="radio" name="taille" value="S" checked="S" /> S &nbsp;&nbsp;29cm</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <label><input type="radio" name="taille" value="L" checked="L" /> L&nbsp;&nbsp; 33cm </label>
         </div>
-        <br/>
-
 
 
         <div class="form-group">
             <label for="produit">Prix</label>
             <input type="prix" name="prix" class="form-control" id="prix" placeholder="prix">
+        </div>
+
+        <br/>
+
+        <div class="radio">
+            <h4>Taille l:</h4><br/>
+            <label><input type="radio" name="taillel" value="S" checked="S" /> S &nbsp;&nbsp;29cm</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label><input type="radio" name="taillel" value="L" checked="L" /> L&nbsp;&nbsp; 33cm </label>
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="produit">Prixl</label>
+            <input type="prix" name="prixl" class="form-control" id="prix" placeholder="prix">
         </div>
 
 
