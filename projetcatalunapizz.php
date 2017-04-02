@@ -55,7 +55,8 @@
 	<div class="imghdr">
 		<h3 class="margin"></h3>
             <h2 id="titreheader">Cataluña Pizz'</h2>
-		<img src="toro.jpg" class="img-responsive img-circle margin toroposey" style="display:inline" alt="taureau" >
+		<img src="toro.jpg" class="img-responsive img-circle margin toroposey" style="display:inline" alt="taureau" ><br>
+            <h2 id="numhdr">06 51 75 79 20</h2>
 
 	</div>
 </div>
@@ -86,7 +87,7 @@
 		</div>
 
 		<div class= "col-md-6 trouv">
-			<h1>Vous pouvez nous trouver ici</h1>
+			<h3>Vous pouvez nous trouver ici</h3>
 			<div id="map_container">
 
 					<iframe class="google-maps" src="https://www.google.com/maps/d/embed?mid=1Oif-2Qx2QIQD7sU3SocSYlXp_Ys"></iframe>
